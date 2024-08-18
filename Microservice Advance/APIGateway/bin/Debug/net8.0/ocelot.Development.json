@@ -1,0 +1,62 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/user/login",
+      "DownstreamScheme": "http",
+      "ServiceName": "User-Service",
+      "DownstreamPathTemplate": "/api/auth/login",
+      "UpstreamHttpMethod": [ "POST"],
+      "AddHeadersToRequest": {
+        "Authorization": "{Authorization}"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/product/{everything}",
+      "DownstreamScheme": "http",
+      "ServiceName": "Product-Service",
+      "DownstreamPathTemplate": "/api/product/{everything}",
+      "UpstreamHttpMethod": [ "GET","PUT","POST","DELETE" ],
+      "AddHeadersToRequest": {
+        "Authorization": "{Authorization}"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/product-detail/{everything}",
+      "DownstreamScheme": "http",
+      "ServiceName": "Product-Detail-Service",
+      "DownstreamPathTemplate": "/api/product/detail/{everything}",
+      "UpstreamHttpMethod": [ "GET","PUT","POST","DELETE" ],
+      "AddHeadersToRequest": {
+        "Authorization": "{Authorization}"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/cart/{everything}",
+      "DownstreamScheme": "http",
+      "ServiceName": "Cart-Service",
+      "DownstreamPathTemplate": "/api/cart/{everything}",
+      "UpstreamHttpMethod": [ "GET","PUT","POST","DELETE" ],
+      "AddHeadersToRequest": {
+        "Authorization": "{Authorization}"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/checkout/process",
+      "DownstreamScheme": "http",
+      "ServiceName": "CheckOut-Service",
+      "DownstreamPathTemplate": "/api/checkout/process",
+      "UpstreamHttpMethod": ["POST" ],
+      "AddHeadersToRequest": {
+        "Authorization": "{Authorization}"
+      }
+    }
+    
+  ],
+  "GlobalConfiguration": {
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+  }
+}

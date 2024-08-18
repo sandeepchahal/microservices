@@ -1,0 +1,80 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/user/login",
+      "DownstreamScheme": "http",
+      "ServiceName": "User-Service",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "user_api",
+          "Port": 5001
+        }
+      ],
+      "DownstreamPathTemplate": "/api/auth/login",
+      "UpstreamHttpMethod": [ "POST"]
+    },
+    {
+      "UpstreamPathTemplate": "/product/{everything}",
+      "DownstreamScheme": "http",
+      "ServiceName": "Product-Service",
+
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "product_api",
+          "Port": 5002
+        }
+      ],
+      "DownstreamPathTemplate": "/api/product/{everything}",
+      "UpstreamHttpMethod": [ "GET","PUT","POST","DELETE" ]
+    },
+    {
+      "UpstreamPathTemplate": "/product-detail/{everything}",
+      "DownstreamScheme": "http",
+      "ServiceName": "ProductDetail-Service",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "product_detail_api",
+          "Port": 5003
+        }
+      ],
+      "DownstreamPathTemplate": "/api/product/detail/{everything}",
+      "UpstreamHttpMethod": [ "GET","PUT","POST","DELETE" ]
+    },
+    
+    {
+      "UpstreamPathTemplate": "/cart/{everything}",
+      "DownstreamScheme": "http",
+      "ServiceName": "Cart-Service",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "cart_api",
+          "Port": 5004
+        }
+      ],
+      "DownstreamPathTemplate": "/api/cart/{everything}",
+      "UpstreamHttpMethod": [ "GET","PUT","POST","DELETE" ]
+    },
+    {
+      "UpstreamPathTemplate": "/checkout/process",
+      "DownstreamScheme": "http",
+      "ServiceName": "CheckOut-Service",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "checkout_api",
+          "Port": 5005
+        }
+      ],
+      "DownstreamPathTemplate": "/api/checkout/process",
+      "UpstreamHttpMethod": ["POST" ]
+    }
+    
+    
+  ],
+  "GlobalConfiguration": {
+    "ServiceDiscoveryProvider": {
+      "Host": "consul",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "D8k55GoxiTV+R5BcgUKf4cq39Dd9jFI42SwqCF9F8TYOs1hCHDJdUl8g0rw8JtK8vv+PykjkPPIuDPfBAcQE5w==",
+  "success": true,
+  "projectFilePath": "/Users/sandeepsingh/Documents/Learning/Nagarro/Microservice Advance/InventoryService/InventoryService.csproj",
+  "expectedPackageFiles": [
+    "/Users/sandeepsingh/.nuget/packages/microsoft.aspnetcore.openapi/8.0.5/microsoft.aspnetcore.openapi.8.0.5.nupkg.sha512",
+    "/Users/sandeepsingh/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/sandeepsingh/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/sandeepsingh/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/sandeepsingh/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/sandeepsingh/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/sandeepsingh/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

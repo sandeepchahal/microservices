@@ -1,0 +1,13 @@
+/Users/sandeepsingh/Documents/Learning/Nagarro/Microservice Advance/JWTConfiguration/bin/Debug/net8.0/JWTConfiguration.deps.json
+/Users/sandeepsingh/Documents/Learning/Nagarro/Microservice Advance/JWTConfiguration/bin/Debug/net8.0/JWTConfiguration.dll
+/Users/sandeepsingh/Documents/Learning/Nagarro/Microservice Advance/JWTConfiguration/bin/Debug/net8.0/JWTConfiguration.pdb
+/Users/sandeepsingh/Documents/Learning/Nagarro/Microservice Advance/JWTConfiguration/obj/Debug/net8.0/JWTConfiguration.csproj.AssemblyReference.cache
+/Users/sandeepsingh/Documents/Learning/Nagarro/Microservice Advance/JWTConfiguration/obj/Debug/net8.0/JWTConfiguration.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sandeepsingh/Documents/Learning/Nagarro/Microservice Advance/JWTConfiguration/obj/Debug/net8.0/JWTConfiguration.AssemblyInfoInputs.cache
+/Users/sandeepsingh/Documents/Learning/Nagarro/Microservice Advance/JWTConfiguration/obj/Debug/net8.0/JWTConfiguration.AssemblyInfo.cs
+/Users/sandeepsingh/Documents/Learning/Nagarro/Microservice Advance/JWTConfiguration/obj/Debug/net8.0/JWTConfiguration.csproj.CoreCompileInputs.cache
+/Users/sandeepsingh/Documents/Learning/Nagarro/Microservice Advance/JWTConfiguration/obj/Debug/net8.0/JWTConfiguration.sourcelink.json
+/Users/sandeepsingh/Documents/Learning/Nagarro/Microservice Advance/JWTConfiguration/obj/Debug/net8.0/JWTConfiguration.dll
+/Users/sandeepsingh/Documents/Learning/Nagarro/Microservice Advance/JWTConfiguration/obj/Debug/net8.0/refint/JWTConfiguration.dll
+/Users/sandeepsingh/Documents/Learning/Nagarro/Microservice Advance/JWTConfiguration/obj/Debug/net8.0/JWTConfiguration.pdb
+/Users/sandeepsingh/Documents/Learning/Nagarro/Microservice Advance/JWTConfiguration/obj/Debug/net8.0/ref/JWTConfiguration.dll
